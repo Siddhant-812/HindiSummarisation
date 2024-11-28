@@ -32,7 +32,7 @@ The model using cosine similarity as a scoring function performed slightly bette
 Due to GPU constraints we fine-tuned the model using only a subset of the training data around (25k samples).  
 The model was trained for 3 epochs with a batch-size of 4 for 6 hours on NVIDIA RTX 2080 GPU.
 
-## Results
+## Results  
 ![image](https://github.com/user-attachments/assets/c5c7d305-aed3-44b3-ace7-b1d246eb1c62)
 
 ## Streamlit App
