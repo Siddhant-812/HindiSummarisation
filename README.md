@@ -16,6 +16,11 @@ The Dataset used is the XL-Sum dataset which contains news article and summary p
 We have used the Hindi split of the dataset which contains aroung 88k article-summary pairs.  
 link: https://huggingface.co/datasets/csebuetnlp/xlsum
 
+## Calculating Rouge Score
+For calculating Rouge score for Hindi text we used the wrapper provided by the authors of the paper.  
+"XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages" published in ACL-2021.  
+link: https://github.com/csebuetnlp/xl-sum/tree/master/multilingual_rouge_scoring
+
 ## Text Summarisation Model
 We have used the pre-trained mT5 model for generating candidate summaries.
 We have generated 4 candidate summaries for each article using diverse beam search and arranged them in decending order of the Rouge scores with the reference summaries.  
