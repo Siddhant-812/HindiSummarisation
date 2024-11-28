@@ -5,5 +5,5 @@ The projects implements the paper "SimCLS: A Simple Framework for Contrastive Le
 
 ## Dataset
 The Dataset used is the XL-Sum dataset which contains news article and summary pairs for different languages.
-We have used the Hindi split of the dataset which contains aroung 88k article-summary pairs.
+We have used the Hindi split of the dataset which contains aroung 88k article-summary pairs.\n
 link: https://huggingface.co/datasets/csebuetnlp/xlsum
