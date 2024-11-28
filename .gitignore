@@ -1,0 +1,14 @@
+*.log
+*.out
+new_output
+output
+ranked_summary
+*.json
+new_main.py
+new_model.py
+tsne.py
+temp.py
+*.png
+test.py
+score.py
+gpt.py
